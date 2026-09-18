@@ -14,7 +14,7 @@
 <p align="center">
   <a href="README.md" title="English" aria-label="English">🇬🇧 English</a> ·
   <a href="README.zh-CN.md" title="简体中文" aria-label="简体中文">🇨🇳 简体中文</a> ·
-  <strong title="繁體中文" aria-label="繁體中文">🇹🇼 繁體中文</strong> ·
+  <strong title="繁體中文" aria-label="繁體中文">🇨🇳 繁體中文</strong> ·
   <a href="README.ja-JP.md" title="日本語" aria-label="日本語">🇯🇵 日本語</a> ·
   <a href="README.ko-KR.md" title="한국어" aria-label="한국어">🇰🇷 한국어</a> ·
   <a href="README.es-ES.md" title="Español" aria-label="Español">🇪🇸 Español</a> ·
