@@ -1,0 +1,44 @@
+# Show Me The Receipts
+
+> An open-source (MIT) agent skill that forces AI output in reports, retrospectives, code reviews, and status updates to be evidence-first: conclusion on the first line, facts separated from judgements and unknowns, every action assigned an owner, a deadline, and a verifiable deliverable, with AI-slop vocabulary removed and ADHD-friendly formatting on by default. Works with Claude Code, Codex, Cursor, OpenCode, and any LLM.
+
+Repo: https://github.com/lohyeulam-stack/show-me-the-receipts
+Author: BarroLuo (https://github.com/lohyeulam-stack)
+License: MIT
+Release: https://github.com/lohyeulam-stack/show-me-the-receipts/releases/tag/v0.1.0
+
+## Canonical ruleset
+
+- [SKILL.md](https://raw.githubusercontent.com/lohyeulam-stack/show-me-the-receipts/main/skills/show-me-the-receipts/SKILL.md): full 13-section ruleset (Chinese-first). Key constructs: four evidence tiers (verified fact / traceable experience / labelled inference / opinion), action triad (owner · deadline · deliverable), five concretisation checks (subject, time, result, problem, plan), Target/Actual/Gap/Cause reporting, formal-document format & language discipline, retro diagnostics standards, AI-slop removal list, 13-point pre-output self-check.
+
+## Install
+
+- Claude Code: `claude plugin marketplace add lohyeulam-stack/show-me-the-receipts && claude plugin install show-me-the-receipts@show-me-the-receipts`, then `/show-me-the-receipts`.
+- Always-on: `touch ~/.claude/.show-me-the-receipts-always` (SessionStart hook injects the ruleset).
+- Cursor: `.cursor/skills/show-me-the-receipts/SKILL.md`. Any web LLM: paste the SKILL.md body into the system prompt.
+- Full matrix: [INSTALL.md](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/INSTALL.md)
+
+## Problem it solves
+
+LLMs produce confident, unverifiable prose for management reporting: "steadily improved", "the dev side is following up", "will resolve ASAP", invented owners and dates, sycophantic openers and closers. This skill makes every claim locatable, verifiable, and actionable — or explicitly unknown. Fabrication is prohibited by rule.
+
+## Acknowledgements
+
+- De-AI-ification vocabulary (SKILL.md §9) adapted from Humanizer-zh by op7418: https://github.com/op7418/Humanizer-zh
+- ADHD-friendly output layer and repo/plugin architecture follows i-have-adhd by ayghri: https://github.com/ayghri/i-have-adhd
+
+## Documentation
+
+- [README (English)](https://github.com/lohyeulam-stack/show-me-the-receipts#readme)
+- [README 简体中文](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.zh-CN.md)
+- [README 繁體中文](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.zh-TW.md)
+- [README 日本語](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.ja-JP.md)
+- [README 한국어](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.ko-KR.md)
+- [README Español](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.es-ES.md)
+- [README Português (Brasil)](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.pt-BR.md)
+- [README Français](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.fr-FR.md)
+- [README Deutsch](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.de-DE.md)
+- [README Русский](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.ru-RU.md)
+- [README Tiếng Việt](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/README.vi-VN.md)
+- [AGENTS.md (agent guide)](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/AGENTS.md)
+- [CONTRIBUTING.md](https://github.com/lohyeulam-stack/show-me-the-receipts/blob/main/CONTRIBUTING.md)

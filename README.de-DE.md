@@ -1,8 +1,8 @@
-<p align="center"><img src="./logo.png" alt="Show Me The Receipts — receipts-first AI output skill" width="140" /></p>
+<p align="center"><img src="./logo.png" alt="Show Me The Receipts — belegbasierte AI-Ausgabe Skill" width="140" /></p>
 
 <h1 align="center">Show Me The Receipts</h1>
 
-<p align="center"><strong>Receipts, not vibes. A skill that stops your AI agent from burying the answer in pretty words.</strong></p>
+<p align="center"><strong>Belege, bitte. Damit Ihr KI-Agent die Antwort nicht unter schönen Worten begräbt.</strong></p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <strong title="English" aria-label="English">🇬🇧 English</strong> ·
+  <a href="README.md" title="English" aria-label="English">🇬🇧 English</a> ·
   <a href="README.zh-CN.md" title="简体中文" aria-label="简体中文">🇨🇳 简体中文</a> ·
   <a href="README.zh-TW.md" title="繁體中文" aria-label="繁體中文">🇹🇼 繁體中文</a> ·
   <a href="README.ja-JP.md" title="日本語" aria-label="日本語">🇯🇵 日本語</a> ·
@@ -20,7 +20,7 @@
   <a href="README.es-ES.md" title="Español" aria-label="Español">🇪🇸 Español</a> ·
   <a href="README.pt-BR.md" title="Português (Brasil)" aria-label="Português (Brasil)">🇧🇷 Português (Brasil)</a> ·
   <a href="README.fr-FR.md" title="Français" aria-label="Français">🇫🇷 Français</a> ·
-  <a href="README.de-DE.md" title="Deutsch" aria-label="Deutsch">🇩🇪 Deutsch</a> ·
+  <strong title="Deutsch" aria-label="Deutsch">🇩🇪 Deutsch</strong> ·
   <a href="README.ru-RU.md" title="Русский" aria-label="Русский">🇷🇺 Русский</a> ·
   <a href="README.vi-VN.md" title="Tiếng Việt" aria-label="Tiếng Việt">🇻🇳 Tiếng Việt</a>
 </p>

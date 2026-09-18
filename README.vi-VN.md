@@ -1,8 +1,8 @@
-<p align="center"><img src="./logo.png" alt="Show Me The Receipts — receipts-first AI output skill" width="140" /></p>
+<p align="center"><img src="./logo.png" alt="Show Me The Receipts — kỹ năng đầu ra dựa trên bằng chứng" width="140" /></p>
 
 <h1 align="center">Show Me The Receipts</h1>
 
-<p align="center"><strong>Receipts, not vibes. A skill that stops your AI agent from burying the answer in pretty words.</strong></p>
+<p align="center"><strong>Có bằng chứng không. Ngăn AI chôn câu trả lời dưới những lời hoa mỹ.</strong></p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <strong title="English" aria-label="English">🇬🇧 English</strong> ·
+  <a href="README.md" title="English" aria-label="English">🇬🇧 English</a> ·
   <a href="README.zh-CN.md" title="简体中文" aria-label="简体中文">🇨🇳 简体中文</a> ·
   <a href="README.zh-TW.md" title="繁體中文" aria-label="繁體中文">🇹🇼 繁體中文</a> ·
   <a href="README.ja-JP.md" title="日本語" aria-label="日本語">🇯🇵 日本語</a> ·
@@ -22,5 +22,5 @@
   <a href="README.fr-FR.md" title="Français" aria-label="Français">🇫🇷 Français</a> ·
   <a href="README.de-DE.md" title="Deutsch" aria-label="Deutsch">🇩🇪 Deutsch</a> ·
   <a href="README.ru-RU.md" title="Русский" aria-label="Русский">🇷🇺 Русский</a> ·
-  <a href="README.vi-VN.md" title="Tiếng Việt" aria-label="Tiếng Việt">🇻🇳 Tiếng Việt</a>
+  <strong title="Tiếng Việt" aria-label="Tiếng Việt">🇻🇳 Tiếng Việt</strong>
 </p>

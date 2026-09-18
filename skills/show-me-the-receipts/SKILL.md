@@ -370,6 +370,8 @@ metadata:
 
 如果原文使用"闭环""抓手"等词，可以加引号直接引用，不需要替换。引用原文是为了保留诊断依据，不是为了使用这些词。
 
+> 本节中文 AI 写作痕迹清单参考 [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)，致谢； ADHD 友好输出层参考 [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)，致谢。
+
 ## 10. 输出协议
 
 ### 10.1 普通问题 / 判断题
