@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "show-me-the-receipts",
+  "description": "拿证据来的输出纪律：结论先行、可验证、可执行、可验收。",
+  "owner": {
+    "name": "BarroLuo"
+  },
+  "plugins": [
+    {
+      "name": "show-me-the-receipts",
+      "description": "Receipts-first, anti-sycophancy output discipline for reports, reviews, and retro writeups.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

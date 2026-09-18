@@ -1,0 +1,9 @@
+{
+  "name": "show-me-the-receipts",
+  "version": "0.1.0",
+  "description": "拿证据来的输出纪律：结论先行、事实/判断/未知分层、行动三要素、去 AI 味、ADHD 友好。面向报告、复盘、方案、评审。",
+  "author": {
+    "name": "BarroLuo",
+    "url": "https://github.com/lohyeulam-stack"
+  }
+}
