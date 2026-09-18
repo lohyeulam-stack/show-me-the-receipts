@@ -20,7 +20,8 @@ Do not read secrets, home-directory configuration, or unrelated files. Do not ex
 | Claude plugin metadata | `.claude-plugin/` | Plugin and marketplace manifests. |
 | Shared hooks | `hooks/hooks.json`, `hooks/always-on.mjs` | SessionStart always-on injection, opt-in via flag file. |
 | Other runtimes | `plugin.json`, `package.json` | Generic plugin and package metadata. |
-| Documentation | `README.md`, `INSTALL.md` | User-facing overview and installation. |
+| Documentation | `README.md` (zh), `README.en.md`, `INSTALL.md`, `CONTRIBUTING.md` | User-facing overview, installation, and contribution. |
+| Branding | `logo.svg`, `logo.png`, `assets/social-preview.*` | Logo source, rendered logo, and share-card template. |
 
 ## Runtime entry points
 
