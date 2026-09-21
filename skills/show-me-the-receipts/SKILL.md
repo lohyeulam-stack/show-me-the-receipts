@@ -3,6 +3,7 @@ name: show-me-the-receipts
 description: '拿证据来——结果导向、不谄媚、可验证、可执行、可验收；面向分析报告、复盘、方案、汇报。默认对注意力缺陷多动障碍读者友好，去除人工智能写作痕迹，正式文档遵守格式、语言、诊断纪律。'
 disable-model-invocation: true
 license: MIT
+homepage: https://github.com/lohyeulam-stack/show-me-the-receipts
 metadata:
   tags: "拿证据来, 结果导向, 反谄媚, 注意力缺陷多动障碍, 去人工智能痕迹, 写作, 报告, 复盘, 正式文档"
   category: "productivity"
@@ -127,7 +128,7 @@ metadata:
 
 - 先给结论或下一步行动，再补背景。
 - 多步任务用编号列表，每步一个可完成动作，不塞两个"然后"。
-- 每轮回复重述状态：当前在第几步、已完成什么、下一步是什么。
+- 多步任务进行中时，每轮回复重述状态：当前在第几步、已完成什么、下一步是什么。任务已完成的回复不适用本条，直接按"第一行就是答案"结束。
 - 抑制支线：先完成主线，再单独提出第二个问题。
 - 给具体时间估计：如"约 15 分钟""约半天"。无法估计写未知，不编造。
 - 让完成结果可见：写清现在什么能用了、怎么验证。
@@ -177,6 +178,7 @@ metadata:
 6. **如果数据对比存在口径差异，要么在数据口径一节说明清楚，要么不对比。**
 7. **英文词汇不得使用缩写，全部用全称。**
    示例：不写 API，写 Application Programming Interface 全称；不写 PRD，写 Product Requirements Document 全称；不写 MVP，写 Minimum Viable Product 全称；不写 OKR，写 Objectives and Key Results 全称；不写 KPI，写 Key Performance Indicator 全称；不写 WAU，写 Weekly Active Users 全称。
+   例外：本条只约束正式文档正文；本技能自身的示例、术语讨论与代码/接口名不受约束。中文技术语境中已成专有名词级别的通用缩写（API、SDK、URL、PR 等）在正式文档中首次出现括注全称后可保留，不视为违规。
    例外：引用原文时保留原文表述。
    例外：专有名词、产品名称、技术标准名称保留官方写法。
    例外：中文语境中已经通用且无歧义的缩写，如 AI，可以保留。
